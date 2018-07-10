@@ -17,14 +17,15 @@ modules and classes, as well as documenting the __call__ method
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/autodocsumm-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/autodocsumm-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/autodocsumm-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/autodocsumm-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/autodocsumm-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/autodocsumm-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/autodocsumm-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/autodocsumm-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/autodocsumm/badges/version.svg)](https://anaconda.org/conda-forge/autodocsumm)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/autodocsumm/badges/downloads.svg)](https://anaconda.org/conda-forge/autodocsumm)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-autodocsumm-green.svg)](https://anaconda.org/conda-forge/autodocsumm) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/autodocsumm.svg)](https://anaconda.org/conda-forge/autodocsumm) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/autodocsumm.svg)](https://anaconda.org/conda-forge/autodocsumm) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/autodocsumm.svg)](https://anaconda.org/conda-forge/autodocsumm) |
 
 Installing autodocsumm
 ======================
