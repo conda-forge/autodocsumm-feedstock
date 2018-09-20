@@ -1,6 +1,6 @@
 {% set name = "autodocsumm" %}
-{% set version = "0.1.6" %}
-{% set sha256 = "baeeb983ae5676005b72965299a7768c73c38b31804a4852e280f10ce7c65fee" %}
+{% set version = "0.1.7" %}
+{% set sha256 = "0886623bf35a4344a3590c1236277512620708d28b031028c2159bc97450ae36" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
