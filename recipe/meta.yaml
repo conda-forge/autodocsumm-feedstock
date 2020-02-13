@@ -1,6 +1,6 @@
 {% set name = "autodocsumm" %}
-{% set version = "0.1.11" %}
-{% set sha256 = "d4ba2fe3a07d2e13165509c3e275f0e16b11e84c873adccaa1e31502a59c452a" %}
+{% set version = "0.1.12" %}
+{% set sha256 = "fa4677d4a1e990bf1de3240507f8dc40826036bc7d423f86a1b3111015c7ffac" %}
 
 package:
   name: {{ name|lower }}
@@ -13,8 +13,8 @@ source:
 
 build:
   noarch: python
-  number: 1
-  script: python -m pip install --no-deps --ignore-installed .
+  number: 0
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
@@ -23,7 +23,7 @@ requirements:
     - setuptools
   run:
     - python
-    - sphinx <2.4.0
+    - sphinx
     - six
 
 test:
