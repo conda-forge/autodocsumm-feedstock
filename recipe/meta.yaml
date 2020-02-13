@@ -23,7 +23,7 @@ requirements:
     - setuptools
   run:
     - python
-    - sphinx <2.4.0
+    - sphinx
     - six
 
 test:
