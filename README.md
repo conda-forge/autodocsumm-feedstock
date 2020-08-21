@@ -5,7 +5,7 @@ Home: https://github.com/Chilipp/autodocsumm
 
 Package license: GPL-2.0
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Extending your autodoc API docs with a summary
 
