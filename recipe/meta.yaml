@@ -1,6 +1,6 @@
 {% set name = "autodocsumm" %}
-{% set version = "0.1.13" %}
-{% set sha256 = "02cabadf090ed0e6de166709ef18c796536b3ed40607ff96c776884fe6aa1f75" %}
+{% set version = "0.2.0" %}
+{% set sha256 = "8f83e8d6cb5821c808316136b0b8d3a4b4a236824ca7d5e7e8208b793646dd65" %}
 
 package:
   name: {{ name|lower }}
@@ -20,10 +20,9 @@ requirements:
   host:
     - pip
     - python
-    - setuptools
   run:
     - python
-    - sphinx
+    - sphinx >=2.2
     - six
 
 test:
@@ -32,7 +31,7 @@ test:
 
 about:
   home: https://github.com/Chilipp/autodocsumm
-  license: GPL-2.0
+  license: GPL-2.0-only
   license_family: GPL2
   license_file: LICENSE
   summary: Extending your autodoc API docs with a summary
