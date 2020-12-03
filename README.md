@@ -5,9 +5,13 @@ Home: https://github.com/Chilipp/autodocsumm
 
 Package license: GPL-2.0-only
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/autodocsumm-feedstock/blob/master/LICENSE.txt)
 
 Summary: Extending your autodoc API docs with a summary
+
+Development: https://github.com/Chilipp/autodocsumm
+
+Documentation: http://autodocsumm.readthedocs.io/
 
 This sphinx extension provides some useful extensions to the Sphinxs
 autodoc_ extension. Those include automatic and grouped summary tables for

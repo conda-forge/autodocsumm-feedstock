@@ -1,6 +1,6 @@
 {% set name = "autodocsumm" %}
-{% set version = "0.2.1" %}
-{% set sha256 = "8e70916f523149a9c15f117119c7ad475391d2aef62f637574e79751070654b4" %}
+{% set version = "0.2.2" %}
+{% set sha256 = "227fb5fb96b7252e5b6bca37fc1b3cad0d26715fbdb25678159ae2e9ecd42fb5" %}
 
 package:
   name: {{ name|lower }}
@@ -19,9 +19,9 @@ build:
 requirements:
   host:
     - pip
-    - python
+    - python >=3.5
   run:
-    - python
+    - python >=3.5
     - sphinx >=2.2
     - six
 
