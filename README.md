@@ -3,7 +3,7 @@ About autodocsumm
 
 Home: https://github.com/Chilipp/autodocsumm
 
-Package license: GPL-2.0-only
+Package license: Apache-2.0
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/autodocsumm-feedstock/blob/master/LICENSE.txt)
 
