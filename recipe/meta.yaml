@@ -1,6 +1,6 @@
 {% set name = "autodocsumm" %}
-{% set version = "0.2.6" %}
-{% set sha256 = "139ca69c5d6b5cf27c41c7ad9c309663f8ead84be2f6a29eefbcfb5166596cf3" %}
+{% set version = "0.2.7" %}
+{% set sha256 = "cea7e2f900e5ac10baa6e831683e9241b0892226210609c087b94f109e0f6ab6" %}
 
 package:
   name: {{ name|lower }}
