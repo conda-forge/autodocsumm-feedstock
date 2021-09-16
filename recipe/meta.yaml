@@ -22,7 +22,7 @@ requirements:
     - python >=3.5
   run:
     - python >=3.5
-    - sphinx >=2.2
+    - sphinx >=2.2, <=5.0
     - six
 
 test:
