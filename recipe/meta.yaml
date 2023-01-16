@@ -17,6 +17,9 @@ build:
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
+  build:
+    - versioneer
+    - tomli
   host:
     - pip
     - python >=3.5
