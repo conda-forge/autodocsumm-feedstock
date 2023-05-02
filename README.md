@@ -1,11 +1,11 @@
-About autodocsumm
-=================
+About autodocsumm-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/autodocsumm-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/Chilipp/autodocsumm
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/autodocsumm-feedstock/blob/main/LICENSE.txt)
 
 Summary: Extending your autodoc API docs with a summary
 
