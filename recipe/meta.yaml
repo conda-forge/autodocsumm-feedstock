@@ -1,6 +1,6 @@
 {% set name = "autodocsumm" %}
-{% set version = "0.2.13" %}
-{% set sha256 = "ac5f0cf1adbe957acb136fe0d9e16c38fb74fcaefb45c148204aba26dbb12ee2" %}
+{% set version = "0.2.14" %}
+{% set sha256 = "2839a9d4facc3c4eccd306c08695540911042b46eeafcdc3203e6d0bab40bc77" %}
 
 package:
   name: {{ name|lower }}
@@ -21,6 +21,7 @@ requirements:
     - pip
     - python >=3.7
     - versioneer
+    - setuptools
     - tomli
   run:
     - python >=3.7
