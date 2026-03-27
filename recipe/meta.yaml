@@ -1,6 +1,6 @@
 {% set name = "autodocsumm" %}
-{% set version = "0.2.14" %}
-{% set sha256 = "2839a9d4facc3c4eccd306c08695540911042b46eeafcdc3203e6d0bab40bc77" %}
+{% set version = "0.2.15" %}
+{% set sha256 = "eaf431e7a5a39e41a215311173c8b95e83859059df1ccf3b79c64bf3d5582b3c" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
