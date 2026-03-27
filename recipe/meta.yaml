@@ -1,6 +1,7 @@
 {% set name = "autodocsumm" %}
-{% set version = "0.2.14" %}
-{% set sha256 = "2839a9d4facc3c4eccd306c08695540911042b46eeafcdc3203e6d0bab40bc77" %}
+{% set version = "0.2.15" %}
+{% set sha256 = "eaf431e7a5a39e41a215311173c8b95e83859059df1ccf3b79c64bf3d5582b3c" %}
+{% set python_min = "3.7" %}
 
 package:
   name: {{ name|lower }}
@@ -8,26 +9,28 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
   noarch: python
   number: 0
-  script: {{ PYTHON }} -m pip install . --no-deps -vv
+  script: "{{ PYTHON }} -m pip install . -vv"
 
 requirements:
   host:
     - pip
-    - python >=3.7
+    - python {{ python_min }}
     - versioneer
     - setuptools
     - tomli
   run:
-    - python >=3.7
-    - sphinx >=2.2, <9.0
+    - python >={{ python_min }}
+    - sphinx >=2.2,<10.0
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - autodocsumm
 
